@@ -1,12 +1,12 @@
 {
   "name": "rectangle-selection",
   "main": "./lib/rectangle-selection.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Select rectangle.",
   "keywords": [
-      "selection",
-      "rectangle",
-      "box"
+    "selection",
+    "rectangle",
+    "box"
   ],
   "activationCommands": {
     "atom-text-editor": [
@@ -22,6 +22,5 @@
   "engines": {
     "atom": ">=1.6.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
