@@ -25,3 +25,12 @@ Paste here
 矩形選択パッケージは ctrl-alt-shift を押しながら普通の範囲選択のようにカーソルを動かすと矩形選択できます。プロポーショナルフォントやいわゆる全角文字にも対応していて、見た目上の矩形を範囲に取ります。
 
 実体はマルチカーソルでの範囲選択なので、複数行のコピー＆ペーストや削除・挿入、そのような操作を行うパッケージの編集操作でも、それらしく動きます。
+
+abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz
+
+http://www.google.com/
+
+Paste here
+Paste here
+Paste here
