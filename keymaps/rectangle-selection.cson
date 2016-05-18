@@ -13,4 +13,6 @@
   'ctrl-alt-shift-down' : 'rectangle-selection:select-down'
   'ctrl-alt-shift-left' : 'rectangle-selection:select-left'
   'ctrl-alt-shift-right': 'rectangle-selection:select-right'
+  'ctrl-alt-shift-home' : "rectangle-selection:select-to-beginning-Of-line"
+  'ctrl-alt-shift-end'  : "rectangle-selection:select-to-end-of-line"
   'escape'              : 'rectangle-selection:cancel'

@@ -1,27 +1,37 @@
 {
-  "name": "rectangle-selection",
-  "main": "./lib/rectangle-selection.js",
-  "version": "0.1.1",
-  "description": "Select rectangle.",
-  "keywords": [
-    "selection",
-    "rectangle",
-    "box"
-  ],
-  "activationCommands": {
-    "atom-text-editor": [
-      "rectangle-selection:select-up",
-      "rectangle-selection:select-down",
-      "rectangle-selection:select-left",
-      "rectangle-selection:select-right",
-      "rectangle-selection:cancel",
-      "core:undo"
-    ]
-  },
-  "repository": "https://github.com/antunnet/atom-rectangle-selection",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.6.0 <2.0.0"
-  },
-  "dependencies": {}
+	"name": "rectangle-selection",
+	"main": "./lib/rectangle-selection.js",
+	"version": "0.1.1",
+	"description": "Select rectangle.",
+	"keywords": [
+		"selection",
+		"rectangle",
+		"box",
+		"矩形選択"
+	],
+	"activationCommands": {
+		"atom-text-editor": [
+			"rectangle-selection:select-up",
+			"rectangle-selection:select-down",
+			"rectangle-selection:select-left",
+			"rectangle-selection:select-right",
+			"rectangle-selection:select-to-beginning-Of-line",
+			"rectangle-selection:select-to-end-of-line",
+			"rectangle-selection:cancel",
+			"core:undo"
+		]
+	},
+	"repository": "https://github.com/antunnet/atom-rectangle-selection",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.6.0 <2.0.0"
+	},
+	"dependencies": {},
+	"consumedServices": {
+		"status-bar": {
+			"versions": {
+				"^1.0.0": "consumeStatusBar"
+			}
+		}
+	}
 }
